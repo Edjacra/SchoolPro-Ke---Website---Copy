@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SchoolPro Ke</title>
+<meta name="description" content="How SchoolPro Ke supports every role in a school.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="navbar">
+    <a href="index.html" class="logo-link"><img src="assets/logo.png" alt="SchoolPro Ke logo"><span class="logo-wordmark">SchoolPro Ke</span></a>
+    <div class="nav-menu-wrap" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-dropdown">
+          <button class="nav-top-link" type="button">Who It's For <span class="chevron"></span></button>
+          <div class="dropdown">
+            <a class="dropdown-item" href="for-roles.html?role=principals">For Principals<span class="item-sub">Leadership, approvals and school-wide insight</span></a>
+            <a class="dropdown-item" href="for-roles.html?role=teachers">For Teachers<span class="item-sub">Class and subject-teacher workspaces</span></a>
+            <a class="dropdown-item" href="for-roles.html?role=parents">For Parents<span class="item-sub">Your child's learning, fees and school life</span></a>
+            <a class="dropdown-item" href="for-registrars-accountants.html">For Registrars<span class="item-sub">Admissions, staff accounts and timetables</span></a>
+            <a class="dropdown-item" href="for-roles.html?role=accountants">For Accountants<span class="item-sub">Fees, notices and collection insights</span></a>
+            <a class="dropdown-item" href="for-librarians.html">For Librarians<span class="item-sub">Catalogue, issue and track returns</span></a>
+          </div>
+        </li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-right"><a href="https://app-5-from-app-4-edwinbase-done-f38dc57e.base44.app/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-small">Log in</a><a href="contact.html" class="btn btn-primary btn-small">Book a Demo</a></div>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow" id="role-label">For Principals</span>
+    <h1 id="role-title">Lead the whole school from one clear view.</h1>
+    <p id="role-description">Stay close to the decisions, performance and people that keep the school moving.</p>
+  </div>
+  <div class="wave-divider"><svg viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30 L1200,60 L0,60 Z" fill="#FFFFFF"></path></svg></div>
+</section>
+
+<section class="section" style="padding-top:0;"><div class="container"><div class="pillars-grid" id="role-cards"></div></div></section>
+
+<section class="closer"><div class="container"><h2 id="closer-title">See it with your school data</h2><p id="closer-text">Book a demo and we will show you the workflow for your role.</p><div class="closer-actions"><a href="contact.html" class="btn btn-primary">Book a Demo</a></div></div></section>
+
+<footer class="footer"><div class="container footer-top"><div class="footer-grid"><div class="footer-col"><a href="index.html" class="logo-link"><img src="assets/logo.png" alt="SchoolPro Ke logo" style="height:44px;width:44px;border-radius:10px;"></a><p class="footer-brand-desc">Simplify. Manage. Achieve. One platform for Kenyan schools to run admissions, fees, academics and communication.</p></div><div class="footer-col"><h4>Product Modules</h4><ul class="footer-links"><li><a href="index.html#core-sis">Student Information System</a></li><li><a href="index.html#fee-management">Fee &amp; Attendance Tracking</a></li><li><a href="index.html#core-sis">CBC Exams &amp; Report Cards</a></li></ul></div><div class="footer-col"><h4>Resources</h4><ul class="footer-links"><li><a href="resources.html#help-center">Help Center / Docs</a></li><li><a href="resources.html#blog">Product Blog</a></li><li><a href="resources.html#case-studies">Customer Case Studies</a></li></ul></div><div class="footer-col"><h4>Company &amp; Contact</h4><ul class="footer-links"><li><a href="contact.html">Contact Sales</a></li><li><a href="contact.html">Book a Demo</a></li></ul><div class="footer-contact-item" style="margin-top:14px;"><i class="fas fa-phone"></i><a href="tel:+254740682321">+254 740 682321</a></div></div></div></div><div class="container footer-bottom"><div class="footer-bottom-left"><p>&copy; 2026 SchoolPro Ke. All rights reserved.</p></div><div><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div></div></footer>
+
+<script>
+  const roleData = {
+    principals: {
+      label: 'For Principals', title: 'Lead the whole school from one clear view.',
+      description: 'See the decisions, performance and people that keep the school moving before the first bell rings.',
+      closerTitle: 'Lead with the full picture', closerText: 'Bring your school priorities to a demo and see your leadership dashboard in action.',
+      cards: [
+        ['fa-chart-line', 'School-wide oversight', ['See enrolment, staffing, fee collection and compliance alerts in one dashboard', 'Monitor attendance and academic performance across every grade and stream', 'Drill into the numbers behind a concern before it becomes a bigger problem']],
+        ['fa-circle-check', 'Approvals in one queue', ['Approve admissions, announcements, syllabus plans and key requests', 'Keep a clear record of every decision and who made it', 'Set the right approval path for your school team']],
+        ['fa-file-lines', 'Reports that guide action', ['Review fee and academic summaries without rebuilding spreadsheets', 'Print report cards and attendance lists in bulk', 'Share clear updates with staff, parents and the board']] ]
+    },
+    teachers: {
+      label: 'For Teachers', title: 'Two teacher workspaces, each focused on the learners you teach.',
+      description: 'Class Teachers manage their homeroom. Subject Teachers manage only their assigned subjects and learners.',
+      closerTitle: 'Give every teacher a focused workspace', closerText: 'See how SchoolPro Ke keeps teaching work organised without giving staff access to information they do not need.',
+      cards: [
+        ['fa-users', 'For Class Teachers', ['Manage the assigned homeroom or stream and its student list', 'Take daily attendance: present, absent, late or excused', 'View class-level performance, notices, clubs and learner support information']],
+        ['fa-book-open', 'For Subject Teachers', ['Access only the subjects, grades, streams and students assigned to you', 'Enter CBC marks and assessment results for your subject', 'Prepare lesson plans and track subject performance without seeing unrelated classes']],
+        ['fa-calendar-check', 'Teaching work, in one place', ['View your timetable and assigned classes', 'Share learning updates with the registrar and principal', 'Keep marks ready for approved report cards']] ]
+    },
+    parents: {
+      label: 'For Parents', title: 'Everything about your child&apos;s school life, without a call to the office.',
+      description: 'A parent sees only their own child or children &mdash; never another learner&apos;s information.',
+      closerTitle: 'Give parents clarity, not more paperwork', closerText: 'See a parent portal that answers everyday questions while keeping each learner&apos;s data private.',
+      cards: [
+        ['fa-user-graduate', 'Your child&apos;s profile', ['View each linked child&apos;s profile, class and academic performance', 'See class attendance and follow up early when attendance changes', 'View clubs and societies your child belongs to']],
+        ['fa-receipt', 'Fees and statements', ['Check fee balances and payment history for each child', 'Download fee statements and use the correct payment reference', 'Receive balance reminders and school-approved notices']],
+        ['fa-book', 'Learning and school resources', ['View report cards, assigned holiday work and teacher updates', 'See books and other reading materials assigned by the school', 'Switch securely between your own children without access to any other student']] ]
+    },
+    accountants: {
+      label: 'For Accountants', title: 'Fee collection with every shilling accounted for.',
+      description: 'Run payments, fee structures and parent notices from one financial record that stays in sync everywhere.',
+      closerTitle: 'See it with your fee structure', closerText: 'Bring a real term&apos;s fee process to a demo and we will map it together.',
+      cards: [
+        ['fa-money-bill-wave', 'Collect and confirm payments', ['Record cash, M-Pesa and bank payments with proof of payment', 'Search a family or learner before posting a payment', 'Keep one current balance across statements and reports']],
+        ['fa-sliders', 'Set the right fee structure', ['Set fees by grade, term and academic year', 'Apply approved charges, discounts and payment arrangements', 'Generate accurate notices without recreating a spreadsheet']],
+        ['fa-chart-pie', 'Collection insight', ['View expected, collected and outstanding balances at a glance', 'Track payment-method trends and arrears by grade', 'Send fee notices and SMS balance reminders automatically']] ]
+    }
+  };
+  const selectedRole = new URLSearchParams(window.location.search).get('role');
+  const role = roleData[selectedRole] || roleData.principals;
+  document.title = role.label.replace(/&[^;]+;/g, '') + ' | SchoolPro Ke';
+  document.getElementById('role-label').textContent = role.label;
+  document.getElementById('role-title').innerHTML = role.title;
+  document.getElementById('role-description').innerHTML = role.description;
+  document.getElementById('closer-title').innerHTML = role.closerTitle;
+  document.getElementById('closer-text').innerHTML = role.closerText;
+  document.getElementById('role-cards').innerHTML = role.cards.map((card, index) => `<div class="pillar-card p${index + 1}"><div class="pillar-icon"><i class="fas ${card[0]}"></i></div><h3>${card[1]}</h3><ul>${card[2].map(item => `<li>${item}</li>`).join('')}</ul></div>`).join('');
+</script>
+<script src="script.js"></script>
+</body>
+</html>

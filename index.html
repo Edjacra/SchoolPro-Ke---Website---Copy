@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SchoolPro Ke — Run Your Entire School on One Seamless Platform</title>
+<meta name="description" content="SchoolPro Ke is a school management platform built for Kenyan K-12 schools — student records, CBC-ready academics, fee collection with M-Pesa, attendance, timetabling and a parent portal, all in one place.">
+<link rel="canonical" href="https://schoolproke.co.ke/">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================= HEADER ============================= -->
+<header class="header">
+  <div class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo.png" alt="SchoolPro Ke logo">
+      <span class="logo-wordmark">SchoolPro Ke</span>
+    </a>
+
+    <div class="nav-menu-wrap" id="navMenu">
+      <ul class="nav-links">
+
+        <!-- Product / Features -->
+        <li class="has-dropdown">
+          <button class="nav-top-link" type="button">Product <span class="chevron"></span></button>
+          <div class="dropdown">
+            <div class="dropdown-group">
+              <span class="dropdown-label">Core SIS</span>
+              <a class="dropdown-item" href="index.html#core-sis">
+                Student Information System
+                <span class="item-sub">Enrolment, records, streams &amp; status in one register</span>
+              </a>
+              <a class="dropdown-item" href="index.html#core-sis">
+                Attendance &amp; Timetabling
+                <span class="item-sub">Daily attendance, conflict-free timetables</span>
+              </a>
+            </div>
+            <div class="dropdown-group">
+              <span class="dropdown-label">Fee Management</span>
+              <a class="dropdown-item" href="index.html#fee-management">
+                Fee Collection &amp; M-Pesa
+                <span class="item-sub">Record payments, structures, notices &amp; SMS reminders</span>
+              </a>
+              <a class="dropdown-item" href="index.html#fee-management">
+                Fee Analytics
+                <span class="item-sub">Expected vs. collected, arrears, drill-down by grade</span>
+              </a>
+            </div>
+            <div class="dropdown-group">
+              <span class="dropdown-label">Parent App</span>
+              <a class="dropdown-item" href="index.html#communication">
+                Parent Portal
+                <span class="item-sub">Report cards, fee statements, attendance, one login</span>
+              </a>
+              <a class="dropdown-item" href="index.html#communication">
+                Announcements &amp; SMS
+                <span class="item-sub">Principal-approved updates straight to guardians</span>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Who It's For -->
+        <li class="has-dropdown">
+          <button class="nav-top-link" type="button">Who It's For <span class="chevron"></span></button>
+          <div class="dropdown">
+            <a class="dropdown-item" href="for-roles.html?role=principals">
+              For Principals
+              <span class="item-sub">A school-wide dashboard and every approval in one queue</span>
+            </a>
+            <a class="dropdown-item" href="for-roles.html?role=teachers">
+              For Teachers
+              <span class="item-sub">Attendance, CBC marks entry, syllabus &amp; lesson plans</span>
+            </a>
+            <a class="dropdown-item" href="for-roles.html?role=parents">
+              For Parents
+              <span class="item-sub">See fees, results and attendance without a phone call</span>
+            </a>
+            <a class="dropdown-item" href="for-registrars-accountants.html">
+              For Registrars
+              <span class="item-sub">Admissions, staff accounts, timetables and reporting</span>
+            </a>
+            <a class="dropdown-item" href="for-roles.html?role=accountants">
+              For Accountants
+              <span class="item-sub">Fee collection, notices and financial reporting</span>
+            </a>
+            <a class="dropdown-item" href="for-librarians.html">
+              For Librarians
+              <span class="item-sub">Catalogue, issue, track returns and lost-item notices</span>
+            </a>
+          </div>
+        </li>
+
+        <li><a href="pricing.html">Pricing</a></li>
+
+        <!-- Resources -->
+        <li class="has-dropdown">
+          <button class="nav-top-link" type="button">Resources <span class="chevron"></span></button>
+          <div class="dropdown">
+            <a class="dropdown-item" href="resource-detail.html?resource=help-center">Help Center / Docs<span class="item-sub">Guides for every role on the platform</span></a>
+            <a class="dropdown-item" href="resource-detail.html?resource=blog">Product Blog<span class="item-sub">Notes on CBC, admin and edtech in Kenya</span></a>
+            <a class="dropdown-item" href="resource-detail.html?resource=case-studies">Customer Case Studies<span class="item-sub">How schools switched from paper to platform</span></a>
+            <a class="dropdown-item" href="resource-detail.html?resource=status">System Status<span class="item-sub">Live uptime and incident history</span></a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="https://app-5-from-app-4-edwinbase-done-f38dc57e.base44.app/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-small">Log in</a>
+        <a href="contact.html" class="btn btn-primary btn-small">Book a Demo</a>
+      </div>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+  </div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-eyebrow"><span class="dot"></span> Built for CBC schools in Kenya</span>
+      <h1>Run your entire school on one seamless platform.</h1>
+      <p class="lead">SchoolPro Ke replaces the registers, spreadsheets and WhatsApp groups with one system for admissions, fees, attendance, CBC academics and parent communication — so your staff spend less time on paperwork and more time on students.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-secondary">Schedule a Free Demo</a>
+        <a href="#video" class="btn btn-ghost">▶ Watch 2-Min Video</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <!-- Desktop / laptop view -->
+      <div class="mock-frame mock-frame-desktop">
+        <span class="mock-device-label">Desktop view</span>
+        <div class="mock-bar"><span></span><span></span><span></span></div>
+        <div class="mock-screen">
+          <div class="mock-title">Fee Overview — Term 1, 2026</div>
+          <div class="mock-stat-row">
+            <div class="mock-stat"><div class="num">4.5M</div><div class="lbl">Expected (KES)</div></div>
+            <div class="mock-stat"><div class="num">3.2M</div><div class="lbl">Collected (KES)</div></div>
+            <div class="mock-stat"><div class="num">71%</div><div class="lbl">Collection rate</div></div>
+          </div>
+          <div class="mock-bars">
+            <i style="height:35%"></i><i style="height:55%"></i><i style="height:40%"></i>
+            <i style="height:70%"></i><i style="height:60%"></i><i style="height:85%"></i><i style="height:50%"></i>
+          </div>
+        </div>
+        <div class="mock-float float-1">
+          <div class="ic"><i class="fas fa-check"></i></div>
+          <div><strong>M. Wanjiku · GRD5-023</strong><small>Fee payment recorded</small></div>
+        </div>
+        <div class="mock-float float-2">
+          <div class="ic"><i class="fas fa-graduation-cap"></i></div>
+          <div><strong>Mathematics — ME</strong><small>CBC performance level</small></div>
+        </div>
+      </div>
+
+      <!-- Mobile / phone view -->
+      <div class="mock-frame mock-frame-mobile">
+        <span class="mock-device-label mock-device-label-mobile">Mobile view</span>
+        <div class="mock-phone-notch"></div>
+        <div class="mock-screen mock-screen-mobile">
+          <div class="mock-title">Attendance — Today</div>
+          <div class="mock-stat-row mock-stat-row-mobile">
+            <div class="mock-stat"><div class="num">96%</div><div class="lbl">Present</div></div>
+            <div class="mock-stat"><div class="num">850</div><div class="lbl">Total</div></div>
+          </div>
+          <div class="mock-bars mock-bars-mobile">
+            <i style="height:55%"></i><i style="height:80%"></i><i style="height:40%"></i><i style="height:65%"></i><i style="height:90%"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= TRUST BAR ============================= -->
+<section class="trust">
+  <div class="container trust-row">
+    <p class="trust-copy">One record per student, from admission to report card — used daily by principals, registrars, accountants, teachers and librarians in the same school.</p>
+    <div class="trust-chips">
+      <div class="trust-chip"><span class="n">8</span><span class="l">staff roles supported</span></div>
+      <div class="trust-chip"><span class="n">CBC</span><span class="l">grading built in</span></div>
+      <div class="trust-chip"><span class="n">M-Pesa</span><span class="l">fee payments</span></div>
+    </div>
+  </div>
+</section>
+<!-- Note: swap the chips above for real adoption numbers (schools onboarded, students managed) once you have them — avoid publishing placeholder stats as fact. -->
+
+<!-- ============================= CORE PILLARS ============================= -->
+<section class="section" id="core-sis">
+  <div class="container">
+    <div class="section-head">
+      <h2>Three jobs, one platform</h2>
+      <p>Everything a school office juggles across notebooks, spreadsheets and phone calls — brought into a single system every role can trust.</p>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar-card p1">
+        <div class="pillar-icon"><i class="fas fa-user-graduate"></i></div>
+        <h3>Administrative Efficiency</h3>
+        <p>From admission to graduation, one student record follows every learner.</p>
+        <ul>
+          <li>Enrol students with admission numbers, streams and guardian contacts</li>
+          <li>Transfer, suspend or graduate students without losing history</li>
+          <li>Conflict-free timetabling across every grade and stream</li>
+          <li>Daily attendance with present/absent/late/excused tracking</li>
+        </ul>
+      </div>
+      <div class="pillar-card p2" id="fee-management">
+        <div class="pillar-icon"><i class="fas fa-hand-holding-dollar"></i></div>
+        <h3>Financial Clarity</h3>
+        <p>Every shilling accounted for, from the paybill to the report card.</p>
+        <ul>
+          <li>Record M-Pesa, cash and bank payments with proof of payment</li>
+          <li>Set fee structures per grade, term and year</li>
+          <li>Auto-generated fee notices and SMS balance reminders</li>
+          <li>One balance, harmonised across statements, notices and reports</li>
+        </ul>
+      </div>
+      <div class="pillar-card p3" id="communication">
+        <div class="pillar-icon"><i class="fas fa-comments"></i></div>
+        <h3>Unified Communication</h3>
+        <p>Announcements, approvals and report cards reach parents without a chase.</p>
+        <ul>
+          <li>Principal-approved announcements sent straight to guardians</li>
+          <li>Parent portal for fees, attendance and CBC report cards</li>
+          <li>Private messaging between registrar, teachers and accountant</li>
+          <li>Bulk, print-ready report cards with school branding</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= ROLE-BASED TABS ============================= -->
+<section class="section roles" id="roles">
+  <div class="container">
+    <div class="section-head">
+      <h2>Built around how your staff actually work</h2>
+      <p>Every role sees exactly what they need — nothing they don't.</p>
+    </div>
+
+    <div class="role-tabs">
+      <button class="role-tab active" data-role="principals">For Principals</button>
+      <button class="role-tab" data-role="teachers">For Teachers</button>
+      <button class="role-tab" data-role="parents">For Parents</button>
+      <button class="role-tab" data-role="registrars">For Registrars</button>
+      <button class="role-tab" data-role="librarians">For Librarians</button>
+    </div>
+
+    <div class="role-panel active" data-role="principals">
+      <div class="role-copy">
+        <span class="role-eyebrow">For Principals</span>
+        <h3>The whole school, at a glance — and every approval in one queue.</h3>
+        <p>See enrolment, staffing, fee collection and academic performance the moment you log in, then approve admissions, announcements and syllabus plans from the same dashboard.</p>
+        <ul class="role-list">
+          <li><span class="check">✓</span> School-wide dashboard: students, teachers, fee collection, alerts</li>
+          <li><span class="check">✓</span> Approve or decline announcements, admissions and syllabus plans</li>
+          <li><span class="check">✓</span> Create registrar, accountant and teacher accounts</li>
+          <li><span class="check">✓</span> View fee overview and drill into grades with arrears</li>
+          <li><span class="check">✓</span> Print bulk report cards and attendance lists</li>
+        </ul>
+      </div>
+      <div class="role-visual">
+        <div class="role-example">
+          <span class="tag">On the dashboard</span>
+          <p>850 students, 45 teachers, fee collection at 78%, and 3 compliance alerts — enough to know where to click next before the first bell rings.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="role-panel" data-role="teachers">
+      <div class="role-copy">
+        <span class="role-eyebrow">For Teachers</span>
+        <h3>Attendance, marks and lesson plans, without the paper trail.</h3>
+        <p>Take attendance in minutes, enter CBC marks that grade themselves, and submit syllabus and lesson plans for approval — all from your personal timetable.</p>
+        <ul class="role-list">
+          <li><span class="check">✓</span> Daily attendance for your homeroom class</li>
+          <li><span class="check">✓</span> Enter opener, midterm and endterm marks — CBC levels calculated automatically</li>
+          <li><span class="check">✓</span> Create and submit syllabus and lesson plans for approval</li>
+          <li><span class="check">✓</span> Enter formative assessment marks (EE / ME / AE / BE)</li>
+          <li><span class="check">✓</span> Message the principal and registrar directly</li>
+        </ul>
+      </div>
+      <div class="role-visual">
+        <div class="role-example">
+          <span class="tag">Marks entry</span>
+          <p>Enter an endterm Mathematics score of 85% and the system returns performance level "Meeting Expectation" with the CBC interpretation, ready for the report card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="role-panel" data-role="parents">
+      <div class="role-copy">
+        <span class="role-eyebrow">For Parents</span>
+        <h3>Everything about your child's term, without a phone call to the office.</h3>
+        <p>Check fee balances, pay via M-Pesa, view report cards and attendance, and receive school announcements the moment the principal approves them.</p>
+        <ul class="role-list">
+          <li><span class="check">✓</span> Fee statement per term, with balance and payment history</li>
+          <li><span class="check">✓</span> SMS reminders with paybill and account reference</li>
+          <li><span class="check">✓</span> CBC report cards and formative assessment results</li>
+          <li><span class="check">✓</span> Attendance record for your child</li>
+          <li><span class="check">✓</span> School announcements as soon as they're approved</li>
+        </ul>
+      </div>
+      <div class="role-visual">
+        <div class="role-example">
+          <span class="tag">Sample SMS</span>
+          <p>"Dear Parent, Mary Wanjiku fee balance is KES 13,000. Pay via Paybill 522522, Account GRD5-023. Thank you."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="role-panel" data-role="registrars">
+      <div class="role-copy">
+        <span class="role-eyebrow">For Registrars</span>
+        <h3>Keep the school calendar, results and student leadership running on time.</h3>
+        <p>Build conflict-free timetables, publish approved marks and performance cards, and run transparent student elections from one place.</p>
+        <ul class="role-list">
+          <li><span class="check">✓</span> Create and publish timetables for every grade, stream and teacher</li>
+          <li><span class="check">✓</span> Publish approved marks to student and parent portals</li>
+          <li><span class="check">✓</span> Print learner performance cards in bulk</li>
+          <li><span class="check">✓</span> Set up and manage secure school e-voting</li>
+          <li><span class="check">✓</span> Track elections for captains, prefects, governors and other student leaders</li>
+        </ul>
+      </div>
+      <div class="role-visual">
+        <div class="role-example">
+          <span class="tag">Timetable published</span>
+          <p>Term 2 timetables for Grades 7–10 are published. Teachers and students can now view their class schedules before Monday morning.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="role-panel" data-role="librarians">
+      <div class="role-copy">
+        <span class="role-eyebrow">For Librarians</span>
+        <h3>Put every book, novel and magazine within easy reach of every learner.</h3>
+        <p>Manage the school’s reading resources, track circulation and notify teachers when new materials are ready for their classes.</p>
+        <ul class="role-list">
+          <li><span class="check">✓</span> Catalogue textbooks, novels, magazines and other reading resources</li>
+          <li><span class="check">✓</span> Track borrowing, returns, overdue items and lost books</li>
+          <li><span class="check">✓</span> Search resources by title, author, subject or grade</li>
+          <li><span class="check">✓</span> Monitor stock and plan new reading-resource purchases</li>
+          <li><span class="check">✓</span> Send availability updates directly to teachers</li>
+        </ul>
+      </div>
+      <div class="role-visual">
+        <div class="role-example">
+          <span class="tag">Message sent to Grade 10 Lion Mathematics teacher</span>
+          <p>New-edition Mathematics textbooks are now available in the library. Grade 10 Lion students who wish to collect one may come this evening before 4:30 p.m.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= SECURITY ============================= -->
+<section class="section security">
+  <div class="container">
+    <div class="section-head">
+      <h2>Built to be trusted with student data</h2>
+      <p>School records are sensitive by default — we treat them that way at every layer of the platform.</p>
+    </div>
+    <div class="security-grid">
+      <div class="security-badge">
+        <div class="b-icon">🔒</div>
+        <h4>Encrypted in transit</h4>
+        <p>All data moves over HTTPS between your staff, parents and the platform.</p>
+      </div>
+      <div class="security-badge">
+        <div class="b-icon">🗄️</div>
+        <h4>Access by role</h4>
+        <p>A teacher sees their classes; a librarian sees the catalogue — nothing more.</p>
+      </div>
+      <div class="security-badge">
+        <div class="b-icon">💾</div>
+        <h4>Regular backups</h4>
+        <p>Student and fee records are backed up so a bad day never means lost data.</p>
+      </div>
+      <div class="security-badge">
+        <div class="b-icon">📶</div>
+        <h4>Built for uptime</h4>
+        <p>Report card and fee season traffic is what we design and test for.</p>
+      </div>
+    </div>
+    <p class="security-note">SchoolPro Ke is built with student-data privacy as a design principle. If your school requires a specific compliance certification (e.g. Kenya's Data Protection Act, GDPR, FERPA or COPPA), contact us for our current documentation before signing.</p>
+  </div>
+</section>
+
+<!-- ============================= FINAL CTA ============================= -->
+<section class="closer">
+  <div class="container">
+    <h2>Ready to eliminate school administrative paperwork?</h2>
+    <p>Move admissions, fees, attendance and report cards onto one platform your whole staff already knows how to use.</p>
+    <div class="closer-actions">
+      <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+      <a href="pricing.html" class="btn btn-outline-light">See Pricing</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="footer">
+  <div class="container footer-top">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo-link">
+          <img src="assets/logo.png" alt="SchoolPro Ke logo" style="height:44px;width:44px;border-radius:10px;">
+        </a>
+        <p class="footer-brand-desc">Simplify. Manage. Achieve. One platform for Kenyan schools to run admissions, fees, academics and communication.</p>
+        <div class="social-row">
+          <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product Modules</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#core-sis">Student Information System</a></li>
+          <li><a href="index.html#fee-management">Fee &amp; Attendance Tracking</a></li>
+          <li><a href="index.html#core-sis">Admission Automation</a></li>
+          <li><a href="index.html#core-sis">CBC Exams &amp; Report Cards</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="resources.html#help-center">Help Center / Docs</a></li>
+          <li><a href="resources.html#blog">Product Blog</a></li>
+          <li><a href="resources.html#case-studies">Customer Case Studies</a></li>
+          <li><a href="resources.html#status">System Status Page</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company &amp; Contact</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">About Us</a></li>
+          <li><a href="contact.html">Contact Sales</a></li>
+          <li><a href="contact.html">Book a Demo</a></li>
+        </ul>
+        <div class="footer-contact-item" style="margin-top:14px;"><i class="fas fa-phone"></i><a href="tel:+254740682321">+254 740 682321</a></div>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><a href="mailto:schoolproke@gmail.com">schoolproke@gmail.com</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div class="footer-bottom-left">
+      <p>© 2026 SchoolPro Ke. All rights reserved.</p>
+      <p class="powered-by">Powered and Developed by <a href="https://velocetechcompany.com/" target="_blank" rel="noopener noreferrer">Veloce Tech Company</a></p>
+    </div>
+    <div>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/254740682321?text=Hello%20SchoolPro%20Ke%2C%20I%20would%20like%20to%20book%20a%20demo."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<script src="script.js"></script>
+</body>
+</html>

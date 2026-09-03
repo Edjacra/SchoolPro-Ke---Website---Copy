@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Resources | SchoolPro Ke</title>
+<meta name="description" content="SchoolPro Ke guides, updates, customer stories and system information.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><div class="navbar"><a href="index.html" class="logo-link"><img src="assets/logo.png" alt="SchoolPro Ke logo"><span class="logo-wordmark">SchoolPro Ke</span></a><div class="nav-menu-wrap" id="navMenu"><ul class="nav-links"><li><a href="index.html">Home</a></li><li class="has-dropdown"><button class="nav-top-link" type="button">Resources <span class="chevron"></span></button><div class="dropdown"><a class="dropdown-item" href="resource-detail.html?resource=help-center">Help Center / Docs</a><a class="dropdown-item" href="resource-detail.html?resource=blog">Product Blog</a><a class="dropdown-item" href="resource-detail.html?resource=case-studies">Customer Case Studies</a><a class="dropdown-item" href="resource-detail.html?resource=status">System Status</a></div></li><li><a href="pricing.html">Pricing</a></li><li><a href="contact.html">Contact Us</a></li></ul><div class="nav-right"><a href="https://app-5-from-app-4-edwinbase-done-f38dc57e.base44.app/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-small">Log in</a><a href="contact.html" class="btn btn-primary btn-small">Book a Demo</a></div></div><button class="hamburger" id="hamburger" aria-label="Toggle menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button></div></header>
+
+<section class="page-hero"><div class="container"><span class="eyebrow" id="resource-label">Help Center / Docs</span><h1 id="resource-title">Clear answers for every school task.</h1><p id="resource-description">Step-by-step guidance for your SchoolPro Ke workspace.</p></div><div class="wave-divider"><svg viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30 L1200,60 L0,60 Z" fill="#FFFFFF"></path></svg></div></section>
+
+<section class="section" style="padding-top:0;"><div class="container"><div class="pillars-grid" id="resource-cards"></div></div></section>
+<section class="closer"><div class="container"><h2 id="closer-title">Need a hand?</h2><p id="closer-text">Our team is ready to help.</p><div class="closer-actions"><a href="contact.html" class="btn btn-primary" id="closer-link">Contact Us</a></div></div></section>
+
+<footer class="footer"><div class="container footer-top"><div class="footer-grid"><div class="footer-col"><a href="index.html" class="logo-link"><img src="assets/logo.png" alt="SchoolPro Ke logo" style="height:44px;width:44px;border-radius:10px;"></a><p class="footer-brand-desc">Simplify. Manage. Achieve. One platform for Kenyan schools to run admissions, fees, academics and communication.</p></div><div class="footer-col"><h4>Product Modules</h4><ul class="footer-links"><li><a href="index.html#core-sis">Student Information System</a></li><li><a href="index.html#fee-management">Fee &amp; Attendance Tracking</a></li><li><a href="index.html#core-sis">CBC Exams &amp; Report Cards</a></li></ul></div><div class="footer-col"><h4>Company</h4><ul class="footer-links"><li><a href="contact.html">Contact Sales</a></li><li><a href="contact.html">Book a Demo</a></li></ul></div></div></div><div class="container footer-bottom"><div class="footer-bottom-left"><p>&copy; 2026 SchoolPro Ke. All rights reserved.</p></div><div><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div></div></footer>
+
+<script>
+  const resources = {
+    'help-center': {
+      label: 'Help Center / Docs', title: 'Clear answers for every school task.', description: 'Step-by-step guidance for your SchoolPro Ke workspace, from first setup to everyday work.',
+      closerTitle: 'Need a hand?', closerText: 'Our team can help you find the right workflow for your school.', action: 'Contact Support',
+      cards: [['fa-circle-question', 'Get started guides', ['Set up your school profile, terms, grades and streams', 'Add staff accounts and choose the right access for each role', 'Start with practical checklists for admissions, fees and attendance']], ['fa-book-open', 'Module documentation', ['Find guides for student records, timetables, fees and CBC marks', 'Follow clear instructions for parent portal and library features', 'Use searchable articles whenever you need a quick answer']], ['fa-life-ring', 'Everyday support', ['Troubleshoot common questions without waiting for a call', 'Learn recommended ways to manage school records safely', 'Contact the SchoolPro Ke team when you need personal help']]]
+    },
+    blog: {
+      label: 'Product Blog', title: 'Useful ideas for running a calmer school office.', description: 'Practical notes on school operations, CBC workflows and new ways to get more from SchoolPro Ke.',
+      closerTitle: 'Stay up to date', closerText: 'Follow along as we share new product ideas, school-management tips and updates.', action: 'Contact Us',
+      cards: [['fa-lightbulb', 'School operations', ['Simple ways to reduce paperwork across admissions and attendance', 'Ideas for making school information easier for staff to act on', 'Practical lessons from common school-office workflows']], ['fa-graduation-cap', 'CBC and learning', ['Guidance for managing marks, performance and report cards', 'Helpful approaches to class, subject and learner records', 'Updates that help staff stay ready for each term']], ['fa-wand-magic-sparkles', 'Product updates', ['See what is new in SchoolPro Ke', 'Learn how new tools fit into your existing workflow', 'Get release notes explained in plain language']]]
+    },
+    'case-studies': {
+      label: 'Customer Case Studies', title: 'How schools turn scattered work into one clear system.', description: 'See how school teams use SchoolPro Ke to make their daily work more accurate, coordinated and visible.',
+      closerTitle: 'Tell us about your school', closerText: 'We can show you a workflow that matches your school&apos;s size and priorities.', action: 'Book a Demo',
+      cards: [['fa-school', 'Admissions and records', ['See how teams bring learner details, streams and guardian contacts together', 'Learn how accurate records simplify transfers and graduation', 'Explore a clearer handover between office staff and teachers']], ['fa-coins', 'Fees and communication', ['Discover ways to reconcile payments and balances with less manual work', 'See how timely notices reduce calls to the school office', 'Understand how parents can find the information they need']], ['fa-people-group', 'Teaching and leadership', ['Follow examples of timetables, attendance and CBC marks working together', 'See how staff get role-focused access to the information they need', 'Learn how leaders act sooner with one reliable dashboard']]]
+    },
+    status: {
+      label: 'System Status', title: 'A transparent view of SchoolPro Ke availability.', description: 'Check the current health of the services your school team, parents and learners rely on.',
+      closerTitle: 'Need help with an issue?', closerText: 'If something does not look right for your school, contact our support team with the details.', action: 'Contact Support',
+      cards: [['fa-circle-check', 'Current service health', ['See the current status of the main SchoolPro Ke platform', 'Check the availability of parent access, fees and school-office tools', 'Know whether a reported issue is already being investigated']], ['fa-clock-rotate-left', 'Incident updates', ['Follow clear updates while an incident is being assessed', 'See what services are affected and when they are restored', 'Review a record of recent service events']], ['fa-bell', 'Stay informed', ['Use this page as the source of truth during an interruption', 'Share a clear status update with your school team', 'Contact support when your issue is specific to your school account']]]
+    }
+  };
+  const selected = new URLSearchParams(window.location.search).get('resource');
+  const resource = resources[selected] || resources['help-center'];
+  document.title = resource.label + ' | SchoolPro Ke';
+  document.getElementById('resource-label').textContent = resource.label;
+  document.getElementById('resource-title').innerHTML = resource.title;
+  document.getElementById('resource-description').innerHTML = resource.description;
+  document.getElementById('closer-title').innerHTML = resource.closerTitle;
+  document.getElementById('closer-text').innerHTML = resource.closerText;
+  document.getElementById('closer-link').textContent = resource.action;
+  document.getElementById('resource-cards').innerHTML = resource.cards.map((card, index) => `<div class="pillar-card p${index + 1}"><div class="pillar-icon"><i class="fas ${card[0]}"></i></div><h3>${card[1]}</h3><ul>${card[2].map(item => `<li>${item}</li>`).join('')}</ul></div>`).join('');
+</script>
+<script src="script.js"></script>
+</body>
+</html>
