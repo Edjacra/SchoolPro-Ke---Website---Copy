@@ -140,7 +140,7 @@
     <div class="contact-form">
       <h3>Send us a Message</h3>
 
-      <!-- ✅ FormSubmit – redirects to thanks.html after CAPTCHA -->
+      <!-- ✅ FormSubmit – redirects to homepage after CAPTCHA -->
       <form action="https://formsubmit.co/schoolproke@gmail.com" method="POST">
 
         <!-- Hidden fields for FormSubmit -->
@@ -148,7 +148,8 @@
         <input type="hidden" name="_autoresponse" value="Thanks for your message, Our Team will keep in touch with you soon! Please note this is a System autoreply.">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_subject" value="New enquiry — SchoolPro Ke website">
-        <input type="hidden" name="_next" value="thanks.html">  <!-- ✅ Redirects to thanks.html -->
+        <!-- ✅ FIXED: Absolute URL required by FormSubmit -->
+        <input type="hidden" name="_next" value="https://edjacra.github.io/SchoolPro-Ke---Website---Copy/index.html">
 
         <div class="form-group">
           <label>Name *</label>
@@ -255,6 +256,5 @@
    class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
 
 <script src="script.js"></script>
-<!-- No AJAX – standard form POST with CAPTCHA and redirect to thanks.html -->
 </body>
 </html>
