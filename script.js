@@ -216,11 +216,10 @@
             <a href="index.html" class="logo-link"><img src="assets/logo.png" alt="SchoolPro Ke logo" style="height:44px;width:44px;border-radius:10px;"></a>
             <p class="footer-brand-desc">Simplify. Manage. Achieve. One platform for Kenyan schools to run admissions, fees, academics and communication.</p>
             <div class="social-row">
-              <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
-              <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-              <a href="https://web.facebook.com/qiqiagns.edwin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://x.com/SchoolProKe" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/schoolpro_ke/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61594806435156" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.tiktok.com/@schoolpro_ke?lang=en" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
             </div>
           </div>
           <div class="footer-col"><h4>Product Modules</h4><ul class="footer-links">
