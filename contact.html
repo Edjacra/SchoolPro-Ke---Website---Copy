@@ -122,7 +122,7 @@
         <a href="https://wa.me/254740682321?text=Hello%20SchoolPro%20Ke%2C%20I%20would%20like%20to%20book%20a%20demo." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
       </div>
 
-      <p style="font-size:0.88rem; color:var(--ink-soft);">Our team responds Monday – Friday, 08:00 – 18:00 EAT. For a faster answer, check the <a href="resources.html#help-center" style="color:var(--blue); font-weight:600;">Help Center</a> first.</p>
+      <p style="font-size:0.88rem; color:var(--ink-soft);">Our team responds Monday – Friday, 08:00 – 18:00 EAT. For a faster answer, check the <a href="resources.html#help-center" style="color: var(--blue);">Help Center</a>.</p>
 
       <div class="contact-shortcuts">
         <div class="shortcut-card">
@@ -140,16 +140,19 @@
     <div class="contact-form">
       <h3>Send us a Message</h3>
 
-      <!-- ✅ FormSubmit – redirects to homepage after CAPTCHA -->
-      <form action="https://formsubmit.co/schoolproke@gmail.com" method="POST">
+      <!-- ✅ FormSubmit – NO CAPTCHA, direct submission -->
+      <form id="contactForm" action="https://formsubmit.co/schoolproke@gmail.com" method="POST">
 
         <!-- Hidden fields for FormSubmit -->
         <input type="hidden" name="_cc" value="mweterie9@gmail.com">
         <input type="hidden" name="_autoresponse" value="Thanks for your message, Our Team will keep in touch with you soon! Please note this is a System autoreply.">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_subject" value="New enquiry — SchoolPro Ke website">
-        <!-- ✅ FIXED: Absolute URL required by FormSubmit -->
-        <input type="hidden" name="_next" value="https://edjacra.github.io/SchoolPro-Ke---Website---Copy">
+        <!-- Disable the default redirect – we'll use JS instead -->
+        <input type="hidden" name="_next" value="">
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+
         <div class="form-group">
           <label>Name *</label>
           <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -191,6 +194,15 @@
 
   </div>
 </section>
+
+<!-- ============================= SUCCESS NOTIFICATION POPUP ============================= -->
+<div id="successNotification" class="success-notification">
+  <div class="success-notification-content">
+    <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+    <h4>Message Sent!</h4>
+    <p>Your message has been sent successfully. Our team will reach out soon. Thanks for your message!</p>
+  </div>
+</div>
 
 <!-- ============================= FOOTER ============================= -->
 <footer class="footer">
@@ -254,5 +266,23 @@
    class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
 
 <script src="script.js"></script>
+<script>
+  // Handle form submission with success notification
+  document.getElementById('contactForm').addEventListener('submit', async (e) => {
+    const form = e.target;
+    const notification = document.getElementById('successNotification');
+    
+    // Allow form to submit to FormSubmit
+    // After the form is submitted, show success notification
+    setTimeout(() => {
+      notification.classList.add('show');
+      
+      // Hide notification after 5 seconds
+      setTimeout(() => {
+        notification.classList.remove('show');
+      }, 5000);
+    }, 500);
+  });
+</script>
 </body>
 </html>
